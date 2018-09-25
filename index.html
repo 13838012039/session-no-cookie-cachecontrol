@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/default.css">
+
+</head>
+
+<body>
+    注册
+    <h1>你的密码是:__password__</h1>
+
+
+
+    <script>
+        // var a = 1
+        // console.log(a)
+
+        // let a = localStorage.getItem('a')
+        // if (!a) {
+        //     a = 0
+        // } else {
+        //     a = (+a) + 1
+        // }
+        // console.log('a')
+        // console.log(a)
+        // localStorage.setItem('a', a)
+
+        let already = localStorage.getItem('已经提示了')
+        if (already === 'true') {
+
+        } else {
+            alert('你好网站改版啦，新功能如下')
+            localStorage.setItem('已经提示了', 'true')
+        }
+    </script>
+
+
+    <script src='/js/main.js'></script>
+</body>
+
+</html>
